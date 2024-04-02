@@ -10,4 +10,5 @@ Miembros del proyecto:
 | Martin      | Martín-Piñon      |
 | Sergio      | SergioCruzSalinas      |
 | Victor      | Danieltronix      |
-| Baruc      | Cadillac2411      |
+| Baruc      | [Cadillac2411](https://github.com)
+      |
