@@ -5,10 +5,9 @@ Miembros del proyecto:
 
 | Nombre | GitHub |
 | ------------ | ------------ |
-| Carlos      | pirituli1      |
-| Erandi      | ErandyLuna      |
-| Martin      | Martín-Piñon      |
-| Sergio      | SergioCruzSalinas      |
-| Victor      | Danieltronix      |
-| Baruc      | [Cadillac2411](https://github.com)
-      |
+| Carlos      | [pirituli1](https://github.com)|
+| Erandi      | [ErandyLuna](https://github.com)      |
+| Martin      | [Martín-Piñon](https://github.com)      |
+| Sergio      | [SergioCruzSalinas](https://github.com)   |
+| Victor      | [Danieltronix](https://github.com)|
+| Baruc      | [Cadillac2411](https://github.com)|
