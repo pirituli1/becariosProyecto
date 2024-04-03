@@ -1,0 +1,4 @@
+Magenta: 9d2449
+Dorado: bc955c
+Verde: 285c4d
+Magenta intenso: 621132
