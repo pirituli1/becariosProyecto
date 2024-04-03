@@ -1,14 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>holi</h1>
-    <p>Chingas a tu madre Carlos</p>
-    Hola, probando la rama de Baruc
-    <p>x2</p>
-</body>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Vacaciones CFE TEIT</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <!-- Estilos personalizados -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <div class="contenedor">
+                <div class="contenedor1">
+                    <div class="contenedor-logo">
+                        <img class="Logo" src="cfe-teit.png" alt="Logo CFE TEIT" />
+                        <h1 id="titulo">Vacaciones CFE</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <h5 class="card-header">Inicio de Sesión</h5>
+                        <div class="card-body">
+                            <form id="loginForm">
+                                <div class="form-group">
+                                    <label for="inputEmail">Correo Electrónico</label>
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="inputEmail"
+                                        placeholder="Ingresa tu email"
+                                        required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword">Contraseña</label>
+                                    <input
+                                        type="password"
+                                        class="form-control"
+                                        id="inputPassword"
+                                        placeholder="Ingresa tu contraseña"
+                                        required />
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="checkRobot" />
+                                    <label class="form-check-label" for="checkRobot">No soy un robot</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Ingresar</button>
+                            </form>
+                        </div>
+                        <div class="card-footer text-muted">¿Olvidaste tu contraseña?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="conteiner container-footer">
+                <div class="menu-footer">
+                    <div class="contact-info">
+                        <p class="titulo-footer">C 2023 CFE Internet. Todos los derechos reservados</p>
+                        <!--Redes sociales-->
+                        <div class="social">
+                            <span class="facebook">
+                                <a href="www.facebook.com" target="_blank"> <img src="img/faceico.png" /></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS y dependencias (Opcional) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- JavaScript personalizado -->
+        <script src="login.js"></script>
+    </body>
 </html>

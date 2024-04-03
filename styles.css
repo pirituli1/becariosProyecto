@@ -1,0 +1,77 @@
+.contenedor {
+    background-color: #9d2449;
+}
+
+#logo {
+    color: aliceblue;
+    height: 40;
+    width: 40;
+}
+
+.contenedor-logo {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem; /*Espacio entre filas y columnas*/
+
+    position: relative;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+#titulo {
+    position: absolute;
+    top: 50%; /* Posiciona el texto en la mitad de la altura de la imagen */
+    left: 50%; /* Posiciona el texto en la mitad del ancho de la imagen */
+    transform: translate(-50%, -50%); /* Ajusta la posición exacta del texto */
+    width: 100%; /* Asegura que el texto tenga el ancho completo del contenedor */
+}
+
+.contenedor-logo img {
+    width: 15rem;
+}
+
+.contenedor-logo h1 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 6rem;
+}
+
+.footer {
+    background-color: #9d2449;
+}
+
+.container-footer {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 2.5rem; /*Espacio entre filas y columnas*/
+    
+        position: relative;
+        text-align: center; /* Centra el texto horizontalmente */
+        margin-top: 12rem;
+}
+
+.menu-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 30rem;
+    justify-items: center; /*Los items son todos los elementos dentro de una sección*/
+}
+
+.titulo-footer {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase; /*Todas las letras esten en mayúsculas*/
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
